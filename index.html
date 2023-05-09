@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+    <link rel="shortcut icon" href="img/iconpokebola.png" type="image/x-icon">       
+</head>
+
+<body>
+   <section class="pokedex" id="Pokedex">
+    <article class="pokedex_izquierda">
+        <div class="top_izq">
+            <div class="circulo_grande"></div>
+            <div class="circulo_pequeño_rojo"></div>
+            <div class="circulo_pequeño_amarillo"></div>
+            <div class="circulo_pequeño_verde"></div>
+        </div>
+        <div class="centro_pokedex">
+            <div class="top_centro_pokedex">
+            <div class="luz_roja"></div>
+            <div class="luz_negra"></div>
+            </div>
+            <div class="imagen_pokedex" id="imagenPokemon">
+
+            </div>
+            <div class="bottom_centro_pokedex">
+            <div class="luz_grande"></div>
+            <div class="lineas">
+                <div class="linea_gris"></div>
+                <div class="linea_gris"></div>
+                <div class="linea_gris"></div>
+            </div>
+            </div>
+        </div>
+        <div class="footer_izq">
+            <div class="nombre_pokedex" id="nombrePokemon">
+                
+            </div>
+            <div class="botones_pokedex">
+                <img alt="botones" src="img/pokedex/botones.jpg">
+            </div>
+        </div>
+        <div class="tipo_pokemon" id="TipoPokemon">
+            Tipo
+        </div>
+    </article>
+    <article class="pokedex_derecha">
+       <div class="top_der">
+        <div class="descripcion_pokedex" id="descripcionPokedex">
+Datos del pokemon
+        </div>
+       </div>
+       <div class="numeros_pokedex">
+        <button id="botonBuscar1" class="botonnoHover">
+1
+       </button>
+       <button id="botonBuscar2" class="botonnoHover">
+2
+       </button>
+       <button id="botonBuscar3" class="botonnoHover">
+3
+       </button>
+       <button id="botonBuscar4" class="botonnoHover">
+4
+       </button>
+       <button id="botonBuscar5" class="botonnoHover">
+5
+       </button>
+       <button id="botonBuscar6" class="botonnoHover">
+6
+       </button>
+       <button id="botonBuscar7" class="botonnoHover">
+7
+       </button>
+       <button id="botonBuscar8" class="botonnoHover">
+8
+       </button>
+       <button id="botonBuscar9" class="botonnoHover">
+9
+       </button>
+       <button id="botonBuscar0" class="botonnoHover">
+0
+       </button>
+    </div>
+    <div class="footer_der">
+        <div class="boton_buscar">
+            <input id="escribirPokemon" placeholder="Escriba el pokémon">
+            <button onclick="find_character()">
+                Buscar
+            </button>
+        </div>
+    </div>
+    </article>
+
+   </section>
+
+<script src="java.js"></script>
+</body>
+</html>
