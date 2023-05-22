@@ -14,7 +14,7 @@
    <section class="pokedex" id="Pokedex">
     <article class="pokedex_izquierda">
         <div class="top_izq">
-            <div class="circulo_grande"></div>
+            <div class="circulo_grande" id="CirculoGrande"></div>
             <div class="circulo_pequeño_rojo"></div>
             <div class="circulo_pequeño_amarillo"></div>
             <div class="circulo_pequeño_verde"></div>
@@ -51,7 +51,9 @@
     <article class="pokedex_derecha">
        <div class="top_der">
         <div class="descripcion_pokedex" id="descripcionPokedex">
-Datos del pokemon
+                <p id="descripcionPeso"></p>
+                <p id="descripcionAltura"></p>
+                <p id="descripcionHabilidades"></p>
         </div>
        </div>
        <div class="numeros_pokedex">
@@ -88,9 +90,12 @@ Datos del pokemon
     </div>
     <div class="footer_der">
         <div class="boton_buscar">
-            <input id="escribirPokemon" placeholder="Escriba el pokémon">
-            <button onclick="find_character()">
-                Buscar
+            <input id="escribirPokemon" placeholder="Buscador de Pokémon">
+            <button id="search_button" onclick="search()">
+                <img alt="Buscar" src="img/iconpokebola.png">
+            </button>
+            <button id="borrar_button">
+                <img alt="Borrar" src="img/borrar.png">
             </button>
         </div>
     </div>
